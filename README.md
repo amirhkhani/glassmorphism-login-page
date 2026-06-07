@@ -18,7 +18,7 @@ A modern login page built with HTML5 and CSS3, featuring a glassmorphism-inspire
 
 ## 📸 Preview
 
-<img src="./images/demo.png" alt="demo" width=600>
+<img src="./demo.png" alt="demo" width=600>
 
 ## 🚀 Getting Started
 
