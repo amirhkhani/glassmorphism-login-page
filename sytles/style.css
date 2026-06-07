@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #080710;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+
+.container{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-box{
+    position: relative;
+}
+
+
+.login-form{
+    width: 300px;
+    padding: 50px 35px 35px 35px;
+    border: 2px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.13);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    z-index: 50;
+    backdrop-filter: blur(5px);
+}
+
+
+.title{
+    font-size: 32px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+
+.label{
+    font-size: 16px;
+    color: #F5F5F5;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+.input{
+    font-size: 14px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 7px;
+    border: 0;
+    color: #F5F5F5;
+    outline: none;
+    font-family: Poppins;
+}
+
+
+.submit-button{
+    padding: 15px;
+    font-size: 18px;
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 35px;
+    border: 0;
+    font-family: Poppins;
+    outline: none;
+    font-weight: 600;
+
+}
+
+
+.blue-circle, .orange-circle{
+    width: 175px;
+    height: 175px;
+    border-radius: 200px;
+}
+
+
+.blue-circle{
+    background-image: linear-gradient(to left, #D84315, #FF9800);
+    position: absolute;
+    top: -87.5px;
+    left: -87.5px;
+    z-index: 1;
+}
+
+
+.orange-circle{
+    background-image: linear-gradient(to left, #1976D2, #64B5F6);
+    position: absolute;
+    right: -40px;
+    bottom: -120px;
+    z-index: 2;
+}
